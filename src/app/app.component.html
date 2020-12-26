@@ -27,7 +27,7 @@
         </div>
       </ul>
       <p appBasicHighlight>Style me however you want.</p> <!--uses directive to style text-->
-      <p appBetterHighlight>Style me with better Directive.</p>
+      <p [appBetterHighlight]="'red'" defaultColor="yellow">Style me with better Directive.</p>
       <ng-template [ngIf]="onlyOdd">
         <p>Only odd</p>
       </ng-template>
